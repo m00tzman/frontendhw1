@@ -1,0 +1,52 @@
+$myFavoriteColor: pink;
+$unit: 40px;
+$bigFont: 40pt;
+@import 'nav';
+
+
+// I am really tired of having to type this all the time
+$borderValue: solid 1px white;
+
+body {
+  background-color: $myFavoriteColor;
+}
+
+.citing {
+  color: white;
+  margin-left:15%;
+  margin-top: -50px;
+}
+
+#quote{
+  font-size: $navFontSize;
+  color: white;
+}
+
+
+.box {
+  @extend #quote;
+  font-size: $bigFont;
+  letter-spacing: 10px;
+  border: $borderValue;
+}
+
+//For them small devices//
+@media all and (max-width: 480px){
+  body{
+    background-color: orange;
+  } 
+
+  .box{
+    display: none;
+  }
+
+  h1{
+    font-size: 70pt;
+  }
+
+  img{
+    height: 350px;
+    width: 350px;
+  }
+}
+

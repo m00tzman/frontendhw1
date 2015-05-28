@@ -1,0 +1,17 @@
+$navFontSize: 18pt;
+$borderValue: solid 1px white;
+
+nav { 
+  text-align: center;
+  ul {
+    margin: 0; 
+    border: $borderValue;
+    }
+  li {
+    display: inline-block;
+    font-size: $navFontSize;
+    letter-spacing: 10px;
+    margin-right: 50px;
+    color: white;
+  } 
+}

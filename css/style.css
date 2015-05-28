@@ -1,0 +1,44 @@
+nav {
+  text-align: center; }
+  nav ul {
+    margin: 0;
+    border: solid 1px white; }
+  nav li {
+    display: inline-block;
+    font-size: 18pt;
+    letter-spacing: 10px;
+    margin-right: 50px;
+    color: white; }
+
+body {
+  background-color: pink; }
+
+.citing {
+  color: white;
+  margin-left: 15%;
+  margin-top: -50px; }
+
+#quote, .box {
+  font-size: 18pt;
+  color: white; }
+
+.box {
+  font-size: 40pt;
+  letter-spacing: 10px;
+  border: solid 1px white; }
+
+@media all and (max-width: 480px) {
+  body {
+    background-color: orange; }
+
+  .box {
+    display: none; }
+
+  h1 {
+    font-size: 70pt; }
+
+  img {
+    height: 350px;
+    width: 350px; } }
+
+/*# sourceMappingURL=style.css.map */
